@@ -1,11 +1,11 @@
-package generator.service.impl;
+package com.example.demo1.generator.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import generator.domain.User;
-import generator.service.IUserService;
-import generator.mapper.UserMapper;
-import generator.service.ex.InsertException;
-import generator.service.ex.UsernameDuplicatedException;
+import com.example.demo1.generator.domain.User;
+import com.example.demo1.generator.service.IUserService;
+import com.example.demo1.generator.mapper.UserMapper;
+import com.example.demo1.generator.service.ex.InsertException;
+import com.example.demo1.generator.service.ex.UsernameDuplicatedException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

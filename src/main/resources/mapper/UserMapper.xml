@@ -2,17 +2,16 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.UserMapper">
+<mapper namespace="com.example.demo1.generator.mapper.UserMapper">
 
-    <resultMap id="BaseResultMap" type="generator.domain.User">
-            <id property="id" column="id" jdbcType="BIGINT"/>
-            <result property="name" column="name" jdbcType="VARCHAR"/>
-            <result property="age" column="age" jdbcType="INTEGER"/>
+    <resultMap id="BaseResultMap" type="com.example.demo1.generator.domain.User">
+            <id property="uid" column="id" jdbcType="BIGINT"/>
+            <result property="username" column="name" jdbcType="VARCHAR"/>
             <result property="email" column="email" jdbcType="VARCHAR"/>
     </resultMap>
 
     <sql id="Base_Column_List">
-        id,name,age,
+        id,name,
         email
     </sql>
 </mapper>
