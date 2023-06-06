@@ -17,8 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController extends BaseController{
     @Autowired
     private IUserService userService;
-    // 1
-    // 2
+    //1
     /**
      *
      * 1、接收数据方式，请求处理方法的参数列表设置为pojo类型来接收前端的数据
