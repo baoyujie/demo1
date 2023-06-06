@@ -1,4 +1,4 @@
-package generator.domain;
+package com.example.demo1.generator.domain;
 
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
@@ -10,86 +10,86 @@ import java.util.Objects;
 import lombok.Data;
 
 /**
- * 
+ *
  * @TableName user
  */
 @TableName(value ="user")
 @Data
 public class User extends BaseEntity implements Serializable{
     /**
-     * 
+     *
      */
     @TableField(value = "uid")
     private Integer uid;
 
     /**
-     * 
+     *
      */
     @TableField(value = "username")
     private String username;
 
     /**
-     * 
+     *
      */
     @TableField(value = "password")
     private String password;
 
     /**
-     * 
+     *
      */
     @TableField(value = "salt")
     private String salt;
 
     /**
-     * 
+     *
      */
     @TableField(value = "phone")
     private String phone;
 
     /**
-     * 
+     *
      */
     @TableField(value = "email")
     private String email;
 
     /**
-     * 
+     *
      */
     @TableField(value = "gender")
     private Integer gender;
 
     /**
-     * 
+     *
      */
     @TableField(value = "avatar")
     private String avatar;
 
     /**
-     * 
+     *
      */
     @TableField(value = "is_delete")
     private Integer isDelete;
 
     /**
-     * 
+     *
      */
     @TableField(value = "created_user")
     private String createdUser;
 
     /**
-     * 
+     *
      */
     @TableField(value = "created_time")
     private Date createdTime;
 
     /**
-     * 
+     *
      */
     @TableField(value = "modified_user")
     private String modifiedUser;
 
     /**
-     * 
+     *
      */
     @TableField(value = "modified_time")
     private Date modifiedTime;

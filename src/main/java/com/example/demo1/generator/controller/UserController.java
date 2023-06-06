@@ -35,11 +35,11 @@ public class UserController extends BaseController{
      * 2、接收数据方式，请求处理方法的参数列表设置为非pojo类型
      * SpringBoot会直接将请求的参数名和方法的参数名直接进行比较，如果名称相同，则自动完成值的依赖注入
      */
-    @PostMapping("/users/login")
-    public JsonResult<User> login(String username,String password){
-        User data = userService.login(username,password);
-        return new JsonResult<User>(OK,data);
-    }
+//    @PostMapping("/users/login")
+//    public JsonResult<User> login(String username,String password){
+//        User data = userService.login(username,password);
+//        return new JsonResult<User>(OK,data);
+//    }
 
 
 }

@@ -1,14 +1,14 @@
-package generator.mapper;
+package com.example.demo1.generator.mapper;
 
-import generator.domain.User;
+import com.example.demo1.generator.domain.User;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
-* @author 11645
-* @description 针对表【user】的数据库操作Mapper
-* @createDate 2023-04-11 15:01:03
-* @Entity generator.domain.User
-*/
+ * @author 11645
+ * @description 针对表【user】的数据库操作Mapper
+ * @createDate 2023-04-11 15:01:03
+ * @Entity generator.domain.User
+ */
 //规划sql语句，在接口中定义两个sql语句抽象方法
 public interface UserMapper extends BaseMapper<User> {
     // 插入操作

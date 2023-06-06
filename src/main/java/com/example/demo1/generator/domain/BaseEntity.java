@@ -1,4 +1,4 @@
-package generator.domain;
+package com.example.demo1.generator.domain;
 
 import java.io.Serializable;
 import java.util.Date;
